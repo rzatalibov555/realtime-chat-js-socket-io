@@ -44,6 +44,13 @@
     });
     // exituser end
 
+
+    socket.on("update", function(update){
+        renderMessage("update", update)
+    });
+
+    
+
     function renderMessage(type, message){
         let messageContainer = app.querySelector(".chat-screen .messages");
         if(type == "my"){
