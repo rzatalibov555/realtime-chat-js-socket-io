@@ -50,7 +50,7 @@
     });
 
     
-    socket.on("other", function(message){
+    socket.on("chat", function(message){
         renderMessage("other", message)
     });
 
