@@ -24,7 +24,7 @@ body{
     display: none;
 }
 
-.app > .screen.active{
+.app > .screen.active {
     display: block;
     width: 100%;
     height: 100%;
